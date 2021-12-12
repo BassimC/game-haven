@@ -1,0 +1,168 @@
+body {
+    background-color: #eabd91;
+}
+
+nav.navbar, nav.bg-light {
+  background-color: rgb(221, 150, 81) !important;
+}
+
+canvas {
+  display:block;
+  margin:0 auto 10px;
+}
+
+#play {
+  display:block;
+  margin:0 auto 10px;
+}
+
+
+/*               */
+/*     Header    */
+/*               */
+.header {
+  height: 100px;
+  z-index: 1210;
+  position: relative;
+  max-width: 100%;
+  background-color: #DD9651;
+  opacity: 1;
+  display: flex;
+}
+
+.navButton {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-family: ABeeZee;
+  font-weight: bold;
+  width: 600px;
+  padding-top: 35px;
+}
+
+
+#logo {
+  font-size: 45px;
+  width: 750px;
+  padding-left: 100px;
+  padding-top: 20px;
+  ;
+}
+
+/*                             */
+/*   Landing Page Main Content */
+/*                             */
+
+/*             */
+/*   Shop Page */
+/*             */
+.contentBar {
+  height: 620px;
+  max-width: 100%;
+  left: 0;
+  z-index: 510;
+  position: relative;
+  background-color: #FFBA5C;
+  opacity: 1;
+
+}
+
+/* Can we use columns and Boostrap positioning instead of this? */
+#gameFeaturedTextBlock {
+  position: relative;
+  width: 100%;
+  height: 75px;
+}
+
+/* Change this to h1? */
+#contentHeaderText {
+  color: black;
+  font-size: 25px;
+  font-family: ABeeZee;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-left: 30px;
+  background: #eabd91;
+}
+
+.login {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.profile {
+  border-style: solid;
+  border-color: black;
+  border-radius: 60px;
+  margin-right: 25px;
+  height: 500px;
+}
+
+#profileHeader{
+  text-align: center;
+}
+#gameHeader{
+  text-align: center;
+}
+#loginHeader{
+  text-align: center;
+}
+
+
+.profile-red {
+    background-color: rgb(255, 68, 68);
+}
+
+.profile-blue {
+    background-color: rgb(74, 74, 255);
+}
+
+#gameProfile1{
+  width: 50%;
+  position: relative;
+  text-align: center;
+}
+#gameProfile2{
+  width: 50%;
+  position: relative;
+  text-align: center;
+  flex: 0 0 50%;
+}
+@media (max-width: 990px) {
+  #gameProfile1, #gameProfile2 {
+    flex: 0 0 100%;
+    }
+  }
+
+
+  #gameSelect1{
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+  }
+  #gameSelect2{
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    text-align: center;
+    flex: 0 0 50%;
+    font-size: 30px;
+  }
+  @media (max-width: 990px) {
+    #gameSelect1, #gameSelect2 {
+      flex: 0 0 100%;
+      }
+    }
+
+#gameContainer{
+  text-align: center;
+}
+ol{
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
